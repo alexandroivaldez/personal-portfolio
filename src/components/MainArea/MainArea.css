@@ -1,0 +1,7 @@
+.main-container {
+    width: 52%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    border: 1px solid blue;
+}
