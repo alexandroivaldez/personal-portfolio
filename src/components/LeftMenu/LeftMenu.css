@@ -4,4 +4,8 @@
     display: flex;
     justify-content: center;
     border: 1px solid yellow;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-top: 10px;
+    height: 100%;
 }

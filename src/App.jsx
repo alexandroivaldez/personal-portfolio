@@ -5,10 +5,13 @@ import RightMenu from './components/RightMenu/RightMenu';
 
 function App() {
 
+  const name = "Alexandro Valdez";
+  const username = "@alexandroivaldez";
+
   return (
       <div className="app-container">
         <LeftMenu />
-        <MainArea />
+        <MainArea name={name} username={username} />
         <RightMenu />
       </div>
   )
