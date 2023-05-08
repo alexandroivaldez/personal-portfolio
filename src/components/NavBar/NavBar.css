@@ -1,0 +1,19 @@
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    border-width: 0px 1px 0px 1px;
+    border-style: solid;
+    border-color: #818181;
+}
+
+.nav-btn {
+    border: none;
+    background-color: transparent;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+.nav-btn:hover {
+   background-color: #121212;
+}

@@ -1,7 +1,10 @@
 .bio-container {
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+    border-width: 0px 1px 0px 1px;
+    border-style: solid;
+    border-color: #818181;
+    padding-left: 15px;
 }
 
 .bio-extras-container {
