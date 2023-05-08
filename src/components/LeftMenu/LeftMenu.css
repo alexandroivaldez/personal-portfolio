@@ -8,3 +8,9 @@
     padding-top: 10px;
     height: 100%;
 }
+
+.menu-container {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
