@@ -1,0 +1,33 @@
+
+
+.trending-chart-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 360px;
+    margin: 15px 0px 0px 25px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #243447;
+}
+
+.trending-box {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.trending-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trending-top h6 {
+    color: grey;
+}
+
+.trending-top h4 {
+    margin-top: 5px;
+}
