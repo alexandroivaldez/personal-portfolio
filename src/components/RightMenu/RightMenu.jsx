@@ -1,10 +1,12 @@
 import React from 'react'
-
+import PictureGrid from '../PictureGrid/PictureGrid';
 import "./RightMenu.css";
 
 function RightMenu() {
   return (
-    <div className='right-menu-container'>RightMenu</div>
+    <div>
+      <PictureGrid />
+    </div>
   )
 }
 
