@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-around;
     padding-top: 10px;
-    border-width: 0px 1px 0px 1px;
+    border-width: 0px 1px 1px 1px;
     border-style: solid;
     border-color: #818181;
 }
@@ -12,6 +12,7 @@
     background-color: transparent;
     padding: 5px 15px;
     border-radius: 15px;
+    font-weight: bold;
 }
 
 .nav-btn:hover {

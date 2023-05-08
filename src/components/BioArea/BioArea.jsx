@@ -16,7 +16,7 @@ function BioArea({name, username}) {
         <div className='bio-extras-container'>
             <div className="bio-extra">
                 <Icon icon="bi:geo-alt" color="#a6a6a6" width="20" height="20" />
-                <p>Houston, Texas</p>
+                <p><a href="https://www.google.com/search?q=Houston%2C+Texas&oq=Houston%2C+Texas&aqs=chrome..69i57j46i131i433i512j46i433i512j0i131i433i512j0i433i512j69i61j69i60l2.2774j0j7&sourceid=chrome&ie=UTF-8">Houston, Texas</a></p>
             </div>
             <div className="bio-extra">
                 <Icon icon="ic:outline-insert-link" color="#a6a6a6" width="20" height="20" />
