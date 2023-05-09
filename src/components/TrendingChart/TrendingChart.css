@@ -16,18 +16,20 @@
     flex-direction: column;
     padding: 5px;
     margin-bottom: 10px;
+    background-color: #243447;
 }
 
 .trending-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #243447;
 }
 
-.trending-top h6 {
+h6 {
     color: grey;
 }
 
-.trending-top h4 {
+h4 {
     margin-top: 5px;
 }

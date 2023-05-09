@@ -5,7 +5,7 @@ import "./LeftMenu.css";
 
 function LeftMenu() {
   return (
-    <div className='left-menu-container'>
+    <div className='left-menu-container' >
       <h1>AV</h1>
       <div className='menu-container'>
         <Icon icon="mdi:hashtag" color="#ccc" width="25" height="25" />

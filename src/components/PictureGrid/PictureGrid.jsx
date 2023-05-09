@@ -8,7 +8,7 @@ function PictureGrid() {
       <div className='picture-grid'>
         <div className='top-grid'>
           <img src="src/assets/cookingSchool.png" className="top-square" style={{borderRadius: "15px 0px 0px 0px"}}/>
-          <img src="src/assets/cookingSchool.png" className="top-square"/>
+          <img src="src/assets/beanMachine.png" className="top-square"/>
           <img src="src/assets/cookingSchool.png" className="top-square" style={{borderRadius: "0px 15px 0px 0px"}}/>
         </div>
         <div className='bottom-grid'>
