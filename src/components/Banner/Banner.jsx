@@ -5,7 +5,7 @@ import "./Banner.css";
 function Banner() {
   return (
     <div>
-        <img src="public/banner.png" id='banner'/>
+        <img src="banner.png" id='banner'/>
     </div>
   )
 }
