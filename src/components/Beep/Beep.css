@@ -51,3 +51,12 @@
     align-items: center;
     gap: 5px;
 }
+
+/* iPhone styling */
+@media (max-width: 414px) {
+
+   #username {
+    font-size: medium;
+   }
+
+}

@@ -20,7 +20,7 @@ function Beep() {
             <div className='beep-info-container'>
                 <div className='username-info-container'>
                     <div className='username-container'>
-                        <h3>Alexandro Valdez</h3>
+                        <h3 id="username">Alexandro Valdez</h3>
                         <Icon icon="mdi:check-decagram" color="#1da1f2" />
                     </div>
                     <h5 style={{color: "#ccc"}}>@alexandroivaldez</h5>
