@@ -41,7 +41,7 @@
 
 
 /* iPhone styling */
-@media (max-width: 400px) {
+@media (max-width: 414px) {
 
     #explore-text, #settings-text, .left-menu-container {
         display: none;
