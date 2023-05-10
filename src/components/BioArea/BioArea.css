@@ -12,6 +12,10 @@
     display: flex;
 }
 
+a:visited {
+    color: #a6a6a6;
+}
+
 .bio-extra {
     display: flex;
     gap: 5px;
@@ -34,4 +38,8 @@ h5 {
 
 a {
     text-decoration: none;
+}
+
+#linkSVG {
+    transform: rotate(-45deg);
 }

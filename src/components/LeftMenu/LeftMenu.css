@@ -1,8 +1,9 @@
 .left-menu-container {
     background-color: black;
-    width: 24%;
+    width: 31.5%;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     padding-left: 5%;
     padding-top: 10px;
@@ -16,8 +17,33 @@
     align-items: center;
 }
 
-/* @media (max-width: 900px) {
-    .left-menu-container {
-        background-color: lightgreen;
+@media (max-width: 987px) {
+
+    #explore-text, #settings-text{
+        display: none;
     }
-} */
+
+    .left-menu-container {
+        background-color: black;
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 5px;
+        padding-top: 10px;
+        height: 100%;
+        color: white;
+    }
+
+}
+
+
+/* iPhone styling */
+@media (max-width: 400px) {
+
+    #explore-text, #settings-text, .left-menu-container {
+        display: none;
+    }
+
+}
