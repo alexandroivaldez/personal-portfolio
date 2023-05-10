@@ -5,7 +5,7 @@ import { Icon } from '@iconify/react';
 function Beep() {
     
     const beepString = "A website made for a cooking school.";
-    const imageURL = "src/assets/beep2.png";
+    const imageURL = "beep1.jpg";
 
     const generateRand = () => {
         return Math.floor(Math.random() * 1000);
@@ -15,7 +15,7 @@ function Beep() {
 
   return (
     <div className='beep-container'>
-        <img src="src/assets/profile.JPG" id="profile" />
+        <img src="profile.jpg" id="profile" />
         <div className='beep-data'>
             <div className='beep-info-container'>
                 <div className='username-info-container'>
