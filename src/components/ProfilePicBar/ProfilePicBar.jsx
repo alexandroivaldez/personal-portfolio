@@ -5,7 +5,7 @@ import "./ProfilePicBar.css";
 function ProfilePicBar() {
   return (
     <div className='profile-pic-container'>
-        <img src="profile.JPG" id="profile-pic" />
+        <img src="profile.jpg" id="profile-pic" />
         <button class="follow-btn">Follow</button>
     </div>
   )
