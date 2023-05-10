@@ -9,7 +9,7 @@ function BioArea({name, username}) {
     <div className='bio-container'>
         <div className='username-container'>
             <h3>{name}</h3>
-            <Icon icon="emojione-monotone:white-heavy-check-mark" color="#2393fa" />
+            <Icon icon="mdi:check-decagram" color="#1da1f2" />
         </div>
         <h5 style={{color: "#ccc"}}>@alexandroivaldez</h5>
         <h4>Front-end Developer. Code Instructor <a href="https://twitter.com/getmimo"><span style={{color:"#2393FA"}}>@getmimo</span></a> 🪴 💻 ☕</h4>

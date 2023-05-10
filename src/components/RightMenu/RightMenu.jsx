@@ -5,7 +5,7 @@ import "./RightMenu.css";
 
 function RightMenu() {
   return (
-    <div style={{backgroundColor: "black"}}>
+    <div className="right-menu"style={{backgroundColor: "black"}}>
       <PictureGrid />
       <TrendingChart />
     </div>

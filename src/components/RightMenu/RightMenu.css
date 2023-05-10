@@ -1,0 +1,10 @@
+@media (max-width: 987px) {
+    .right-menu {
+        display: none;
+    }
+}
+
+
+.right-menu {
+    color: white;
+}

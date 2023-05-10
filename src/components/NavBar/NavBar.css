@@ -5,6 +5,7 @@
     border-width: 0px 1px 1px 1px;
     border-style: solid;
     border-color: #818181;
+    color: white;
 }
 
 .nav-btn {
@@ -13,6 +14,7 @@
     padding: 5px 15px;
     border-radius: 15px;
     font-weight: bold;
+    color: inherit;
 }
 
 .nav-btn:hover {

@@ -31,18 +31,18 @@ function TrendingChart() {
         {/* break */}
         <div className='trending-box'>
             <div className='trending-top'>
-                <h6>Trending in FED</h6>
+                <h6>Trending in Coding</h6>
                 <h6>...</h6>
             </div>
-            <h4>React</h4>
+            <h4>Java</h4>
         </div>
         {/* break */}
         <div className='trending-box'>
             <div className='trending-top'>
-                <h6>Trending in FED</h6>
+                <h6>Trending in Leadership</h6>
                 <h6>...</h6>
             </div>
-            <h4>React</h4>
+            <h4>Team Management</h4>
         </div>
         {/* break */}
         <h5 style={{color: "#00aced"}}>Show More</h5>
