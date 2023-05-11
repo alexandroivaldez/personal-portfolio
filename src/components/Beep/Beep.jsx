@@ -2,16 +2,13 @@ import React from 'react'
 import "./Beep.css"
 import { Icon } from '@iconify/react';
 
-function Beep() {
+function Beep(props) {
     
     const beepString = "A website made for a cooking school.";
-    const imageURL = "beep1.jpg";
 
     const generateRand = () => {
         return Math.floor(Math.random() * 1000);
     }
-    
-
 
   return (
     <div className='beep-container'>
@@ -27,8 +24,8 @@ function Beep() {
                 </div>
                 <Icon icon="ph:dots-three" color="#ccc" />
             </div>
-            <p>Hello world! Welcome to my take on a Twitter style personal portfolio! Thanks for stopping bye!</p>
-            <a href="https://www.google.com"><img src={imageURL} className="beep-thumbnail" /></a>
+            <p>{props.text}</p>
+            <a href="https://www.google.com"><img src={props.imgURL} className="beep-thumbnail" /></a>
             <div className='engagement-container'>
                 <div className='engagement-card'>
                     <Icon icon="tabler:message-circle-2" color="#ccc" />
