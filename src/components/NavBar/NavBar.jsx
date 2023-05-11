@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState , useRef, useEffect} from 'react';
 
 import "./NavBar.css"
 
@@ -7,6 +7,12 @@ import BeepsContainer from '../BeepsContainer/BeepsContainer';
 function NavBar(props) {
 
   const [count, setCount] = useState(0);
+  let btns = [];
+
+  useEffect(() => {
+    btns = document.querySelectorAll(".nav-container > button")
+  })
+  
 
   const beepData = [
     [
@@ -27,23 +33,42 @@ function NavBar(props) {
     ]
   ]
 
+  const classList = [
+
+  ]
+
+  const updateActive = (num) => {
+    for(let i = 0; i < btns.length; i++){
+      if(i == num){
+        btns[i].classList = ("nav-btn active");
+      } else {
+        btns[i].classList = ("nav-btn");
+      }
+    }
+  }
+
   const buttonClicked = (e) => {
     //if work clicked change state to 
     if(e.currentTarget.getAttribute("data-value") == "work"){
       setCount(0);
+      updateActive(0);
+      // e.currentTarget.classList.toggle("active");
     } else if (e.currentTarget.getAttribute("data-value") == "aboutMe") {
       setCount(1);
+      updateActive(1);
     } else if (e.currentTarget.getAttribute("data-value") == "contact") {
       setCount(2);
+      updateActive(2);
     } else {
       setCount(3);
+      updateActive(3);
     }
   }
 
   return (
     <div>
       <div className='nav-container'>
-          <button className='nav-btn' data-value="work" onClick={buttonClicked}>Work</button>
+          <button className='nav-btn active' data-value="work" onClick={buttonClicked}>Work</button>
           <button className='nav-btn' data-value="aboutMe" onClick={buttonClicked}>About Me</button>
           <button className='nav-btn' data-value="contact" onClick={buttonClicked}>Contact</button>
           <button className='nav-btn' data-value="extra" onClick={buttonClicked}>Extra</button>

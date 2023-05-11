@@ -20,3 +20,9 @@
 .nav-btn:hover {
    background-color: #121212;
 }
+
+.active {
+    text-decoration: underline;
+    text-decoration-color: #1da1f2;
+    text-decoration-thickness: 3px;
+}
