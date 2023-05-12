@@ -6,7 +6,7 @@ function ProfilePicBar() {
   return (
     <div className='profile-pic-container'>
         <img src="profile.jpg" id="profile-pic" />
-        <button class="follow-btn">Follow</button>
+        <button className="follow-btn">Follow</button>
     </div>
   )
 }

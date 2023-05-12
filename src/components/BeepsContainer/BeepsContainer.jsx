@@ -4,10 +4,7 @@ import "./BeepsContainer.css"
 
 function BeepsContainer(props) {
 
-  const nums = props.beepData;
-  console.log(props.beepData)
-
-  const beeps = nums.map((item) => {
+  const beeps = props.beepData.map((item) => {
     return <Beep text={item.bioText} imgURL={item.imgSrc} key={Math.random()} />
   })
 
