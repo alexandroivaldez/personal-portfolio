@@ -25,7 +25,7 @@ function Beep(props) {
                 <Icon icon="ph:dots-three" color="#ccc" />
             </div>
             <p>{props.text}</p>
-            <a href="https://www.google.com"><img src={props.imgURL} className="beep-thumbnail" /></a>
+            <a href={props.additionalLink} target="_blank" ><img src={props.imgURL} className="beep-thumbnail" /></a>
             <div className='engagement-container'>
                 <div className='engagement-card'>
                     <Icon icon="tabler:message-circle-2" color="#ccc" />
