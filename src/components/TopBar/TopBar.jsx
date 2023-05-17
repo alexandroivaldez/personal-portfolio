@@ -3,12 +3,12 @@ import { Icon } from '@iconify/react';
 
 import "./TopBar.css";
 
-function TopBar({name, username}) {
+function TopBar({name, username, currentBackgroundColor}) {
 
   let randomNum = Math.floor(Math.random() * 100);
 
   return (
-    <div className='top-bar-container'>
+    <div className='top-bar-container' style={{backgroundColor: currentBackgroundColor}}>
         <Icon id="arrow-icon" icon="material-symbols:arrow-back-rounded" color="#ccc" width="25" height="25" />
         <div>
             <div className='username-container'>

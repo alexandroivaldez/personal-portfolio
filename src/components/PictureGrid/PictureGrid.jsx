@@ -2,10 +2,10 @@ import React from 'react'
 
 import "./PictureGrid.css";
 
-function PictureGrid() {
+function PictureGrid(props) {
 
   return (
-    <div className='right-menu-container'>
+    <div className='right-menu-container' style={{backgroundColor: props.currentBackgroundColor}}>
       <div className='picture-grid'>
         <div className='top-grid'>
           <img src="pg1.png" className="top-square" style={{borderRadius: "15px 0px 0px 0px"}}/>

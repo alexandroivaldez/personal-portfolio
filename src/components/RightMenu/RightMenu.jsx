@@ -3,11 +3,11 @@ import PictureGrid from '../PictureGrid/PictureGrid';
 import TrendingChart from '../TrendingChart/TrendingChart';
 import "./RightMenu.css";
 
-function RightMenu() {
+function RightMenu(props) {
   return (
-    <div className="right-menu"style={{backgroundColor: "black"}}>
-      <PictureGrid />
-      <TrendingChart />
+    <div className="right-menu" style={{backgroundColor: props.currentBackgroundColor}}>
+      <PictureGrid currentBackgroundColor={props.currentBackgroundColor} />
+      <TrendingChart currentBackgroundColor={props.currentBackgroundColor} />
     </div>
   )
 }

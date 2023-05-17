@@ -2,9 +2,9 @@ import React from 'react'
 
 import "./Banner.css";
 
-function Banner() {
+function Banner(props) {
   return (
-    <div>
+    <div style={{backgroundColor: props.currentBackgroundColor}}>
         <img src="banner.png" id='banner'/>
     </div>
   )

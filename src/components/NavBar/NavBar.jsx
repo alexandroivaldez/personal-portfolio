@@ -60,13 +60,13 @@ function NavBar(props) {
 
   return (
     <div>
-      <div className='nav-container'>
+      <div className='nav-container' style={{backgroundColor: props.currentBackgroundColor}}>
           <button className='nav-btn active' data-value="work" onClick={buttonClicked}>Work</button>
           <button className='nav-btn' data-value="aboutMe" onClick={buttonClicked}>About Me</button>
           <button className='nav-btn' data-value="contact" onClick={buttonClicked}>Contact</button>
           <button className='nav-btn' data-value="extra" onClick={buttonClicked}>Extra</button>
       </div>
-      <BeepsContainer beepData={beepData[count]} />
+      <BeepsContainer currentBackgroundColor={props.currentBackgroundColor} beepData={beepData[count]} />
     </div>
   )
 }

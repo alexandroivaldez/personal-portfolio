@@ -11,7 +11,7 @@ function Beep(props) {
     }
 
   return (
-    <div className='beep-container'>
+    <div className='beep-container' style={{backgroundColor: props.currentBackgroundColor}}>
         <img src="profile.jpg" id="profile" />
         <div className='beep-data'>
             <div className='beep-info-container'>

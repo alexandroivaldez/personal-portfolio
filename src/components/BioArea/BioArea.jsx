@@ -4,9 +4,9 @@ import { Icon } from '@iconify/react';
 
 import "./BioArea.css";
 
-function BioArea({name, username}) {
+function BioArea({name, username, currentBackgroundColor}) {
   return (
-    <div className='bio-container'>
+    <div className='bio-container' style={{backgroundColor: currentBackgroundColor}}>
         <div className='username-container'>
             <h3>{name}</h3>
             <Icon icon="mdi:check-decagram" color="#1da1f2" />
