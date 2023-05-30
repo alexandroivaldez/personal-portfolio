@@ -45,6 +45,37 @@ function TrendingChart() {
             <h4>Team Management</h4>
         </div>
         {/* break */}
+        <div className='trending-box'>
+            <div className='trending-top'>
+                <h6>Trending in Leadership</h6>
+                <h6>...</h6>
+            </div>
+            <h4>Team Management</h4>
+        </div>
+        {/* break */}
+        <div className='trending-box'>
+            <div className='trending-top'>
+                <h6>Trending in Leadership</h6>
+                <h6>...</h6>
+            </div>
+            <h4>Team Management</h4>
+        </div>
+        {/* break */}
+        <div className='trending-box'>
+            <div className='trending-top'>
+                <h6>Trending in Leadership</h6>
+                <h6>...</h6>
+            </div>
+            <h4>Team Management</h4>
+        </div>
+        {/* break */}
+        <div className='trending-box'>
+            <div className='trending-top'>
+                <h6>Trending in Leadership</h6>
+                <h6>...</h6>
+            </div>
+            <h4>Team Management</h4>
+        </div>
         <h5 style={{color: "#00aced"}}>Show More</h5>
     </div>
   )
