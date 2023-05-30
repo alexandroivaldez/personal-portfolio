@@ -20,7 +20,7 @@ function LeftMenu(props) {
         <h3 id="explore-text"><a href="https://black-sibelle-80.tiiny.site/" target="_blank">Resume</a></h3>
       </div>
       <div className='menu-container'>
-        <Icon icon="material-symbols:settings-outline-rounded" color="#ccc" width="25" height="25" />
+        <Icon icon="icon-park-outline:dark-mode" color="#ccc" width="25" height="25" />
         <h3 id="settings-text" onClick={() => setTheme()}>Settings</h3>
       </div>
     </div>
