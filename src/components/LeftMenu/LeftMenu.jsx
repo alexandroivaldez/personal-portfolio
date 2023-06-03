@@ -18,7 +18,7 @@ function LeftMenu(props) {
   return (
     <div className='left-menu-container' style={{backgroundColor: props.currentBackgroundColor}}>
       <div className='menu-container'>
-        <Icon icon="tabler:lego" color="#ccc" width="25" height="25" />
+        <a href="https://black-sibelle-80.tiiny.site/" target="_blank"><Icon icon="tabler:lego" color="#ccc" width="25" height="25" /></a>
         <h3 id="explore-text"><a href="https://black-sibelle-80.tiiny.site/" target="_blank">Resume</a></h3>
       </div>
       {/* <div className='menu-container'>
