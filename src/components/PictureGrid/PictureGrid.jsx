@@ -13,9 +13,9 @@ function PictureGrid(props) {
           <img src="pg3.png" className="top-square" style={{borderRadius: "0px 15px 0px 0px"}}/>
         </div>
         <div className='bottom-grid'>
-          <img src="midtermCalc.png" className="bottom-square" style={{borderRadius: "0px 0px 0px 15px"}} />
-          <img src="cookingSchool.png" className="bottom-square" />
-          <img src="cookingSchool.png" className="bottom-square" style={{borderRadius: "0px 0px 15px 0px"}} />
+          <img src="pg4.png" className="bottom-square" style={{borderRadius: "0px 0px 0px 15px"}} />
+          <img src="pg5.png" className="bottom-square" />
+          <img src="pg6.png" className="bottom-square" style={{borderRadius: "0px 0px 15px 0px"}} />
         </div>
       </div>
     </div>

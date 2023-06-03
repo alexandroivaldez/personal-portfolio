@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div style={{color: fontColor}}>
-      <header style={alertStyle}>THIS SITE IS CURRENTLY UNDER CONSTRUCTION. 80% FINISHED</header>
+      {/* <header style={alertStyle}>THIS SITE IS CURRENTLY UNDER CONSTRUCTION. 80% FINISHED</header> */}
       <div className="app-container" style={{backgroundColor: backgroundColor}}>
         <LeftMenu fontColor={fontColor} setFontColor={setFontColor} setBackgroundColor={setBackgroundColor} currentBackgroundColor={backgroundColor} />
         <MainArea name={name} username={username} currentBackgroundColor={backgroundColor} />
