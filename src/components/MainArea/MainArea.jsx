@@ -8,7 +8,7 @@ import BioArea from '../BioArea/BioArea';
 import NavBar from '../NavBar/NavBar';
 
 function MainArea({name, username, currentBackgroundColor}) {
-
+ 
   return (
     <div className='main-container'>
       <TopBar name={name} username={username} currentBackgroundColor={currentBackgroundColor} />

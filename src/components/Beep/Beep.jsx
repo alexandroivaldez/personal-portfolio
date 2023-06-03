@@ -3,8 +3,6 @@ import "./Beep.css"
 import { Icon } from '@iconify/react';
 
 function Beep(props) {
-    
-    const beepString = "A website made for a cooking school.";
 
     const generateRand = () => {
         return Math.floor(Math.random() * 1000);

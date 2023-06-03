@@ -9,7 +9,7 @@ function BeepsContainer(props) {
   })
 
   return (
-    <div>
+    <div className='beeps-container'>
        {beeps}
     </div>
   )

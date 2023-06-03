@@ -8,8 +8,10 @@ function LeftMenu(props) {
   const setTheme = () => {
     if(props.currentBackgroundColor == "black"){
       props.setBackgroundColor("white");
+      props.setFontColor("black");
     } else {
       props.setBackgroundColor("black");
+      props.setFontColor("white");
     }
   }
 

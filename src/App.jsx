@@ -10,6 +10,7 @@ function App() {
   const username = "@alexandroivaldez";
 
   const [backgroundColor, setBackgroundColor] = useState("black");
+  const [fontColor, setFontColor] = useState('white');
 
   const alertStyle = {
     textAlign: "center",
@@ -18,11 +19,10 @@ function App() {
   }
 
   return (
-    <div>
+    <div style={{color: fontColor}}>
       <header style={alertStyle}>THIS SITE IS CURRENTLY UNDER CONSTRUCTION. 80% FINISHED</header>
       <div className="app-container" style={{backgroundColor: backgroundColor}}>
-        
-        <LeftMenu setBackgroundColor={setBackgroundColor} currentBackgroundColor={backgroundColor} />
+        <LeftMenu fontColor={fontColor} setFontColor={setFontColor} setBackgroundColor={setBackgroundColor} currentBackgroundColor={backgroundColor} />
         <MainArea name={name} username={username} currentBackgroundColor={backgroundColor} />
         <RightMenu currentBackgroundColor={backgroundColor} />
       </div>

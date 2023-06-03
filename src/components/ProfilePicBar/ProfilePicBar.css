@@ -6,13 +6,14 @@
     border-width: 0px 1px 0px 1px;
     border-style: solid;
     border-color: #818181;
+    color: inherit;
 }
 
 .follow-btn {
     color: black;
     background-color: white;
     border-radius: 25px;
-    border: none;
+    border: 1px solid black;
     padding: 10px 16px;
     margin-right: 15px;
     font-weight: bold;
