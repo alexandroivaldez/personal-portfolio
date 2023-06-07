@@ -69,13 +69,13 @@ function TrendingChart() {
             <h4>SASS</h4>
         </div>
         {/* break */}
-        <div className='trending-box'>
+        {/* <div className='trending-box'>
             <div className='trending-top'>
                 <h6>Trending in Backend Dev</h6>
                 <h6>...</h6>
             </div>
             <h4>Express</h4>
-        </div>
+        </div> */}
         <h5 style={{color: "#00aced"}}>Show More</h5>
     </div>
   )
